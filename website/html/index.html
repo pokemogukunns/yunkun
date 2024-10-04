@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang='ja-jp'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+<meta name='viewport' content='width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0'>
+<title>HTMLソースコード表示 - SEOツールネット(無料ツール提供サイト)</title>
+<meta http-equiv='content-script-type' content='text/javascript'>
+<meta name='keywords' content='htmlソース,htmlコード,コード検索,チェック,確認,調べる'>
+<meta name='description' content='ウェブサイトのHTMLソースコードやCSSコードなどをシンタックスハイライトで表示します。また任意のワードでコード内を検索しハイライト表示もできます。'>
+<link href='https://www.seonet.jp/css/styles.css?10' rel='stylesheet' type='text/css' media='screen'>
+<script src='https://www.seonet.jp/js/tools.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script src='https://www.seonet.jp/js/pagetop.js'></script>
+<link rel='shortcut icon' href='https://www.seonet.jp/favicon.ico'>
+<link rel='canonical' href='https://www.seonet.jp/website/html/'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+</head>
+<body><script type="text/javascript" src="https://ad.netowl.jp/js/star-php.js"></script>
+<DIV align='center'>
+ 
+<div class='h1'>
+<div class='inner'>
+<h1>HTMLソースコード表示</h1>
+</div>
+</div>
+ 
+<div class='inner'>
+<h2><a href='https://www.seonet.jp/'><img src='https://www.seonet.jp/img/logo.png' alt='SEOツールネット' width='200'></a></h2>
+</div>
+ 
+<nav id='mainNav'>
+<div class='innerMenu'>
+<a class='menu' id='menu'><span>MENU</span></a>
+<div class='panel'>
+<ul>
+ 
+<li>
+<a href='https://www.seonet.jp/seo/'>SEOツール<span>Seo Tools</span></a>
+<ul class='sub-menu'>
+<li><a href='https://www.seonet.jp/'>サイトSEOチェック</a></li>
+<li><a href='https://www.seonet.jp/seo/topsite/'>キーワード難易度チェック</a></li>
+<li><a href='https://www.seonet.jp/seo/domain_authority/'>ドメインオーソリティチェック</a></li>
+<li><a href='https://www.seonet.jp/seo/backlink/'>被リンクチェック</a></li>
+<li><a href='https://www.seonet.jp/seo/link/'>発リンクチェック</a></li>
+<li><a href='https://www.seonet.jp/seo/deadlink/'>リンク切れチェック</a></li>
+<li><a href='https://www.seonet.jp/seo/keyword/'>キーワード出現率チェック</a></li>
+<li><a href='https://www.seonet.jp/seo/suggest/'>関連キーワード＆トレンド比較</a></li>
+<li><a href='https://www.seonet.jp/seo/search_ranking/'>検索順位チェック</a></li>
+<li><a href='https://www.seonet.jp/seo/image/'>画像altチェック</a></li>
+</ul>
+</li>
+ 
+<li>
+<a href='https://www.seonet.jp/domain/'>ドメインツール<span>Domain Tools</span></a>
+<ul class='sub-menu'>
+<li><a href='https://www.seonet.jp/domain/domain_search/'>空き単語ドメイン検索</a></li>
+<li><a href='https://www.seonet.jp/domain/old_domain/'>中古ドメイン検索</a></li>
+<li><a href='https://www.seonet.jp/domain/pending_domain/'>期限切れドメインリスト</a></li>
+<li><a href='https://www.seonet.jp/domain/whois/'>Whois情報検索</a></li>
+<li><a href='https://www.seonet.jp/domain/reverse_ip/'>同一IPドメインチェック</a></li>
+<li><a href='https://www.seonet.jp/domain/sub_domain/'>サブドメインチェック</a></li>
+<li><a href='https://www.seonet.jp/domain/dns/'>DNSレコードチェック</a></li>
+</ul>
+</li>
+ 
+<li>
+<a href='https://www.seonet.jp/website/'>ウェブサイトツール<span>Website Tools</span></a>
+<ul class='sub-menu'>
+<li><a href='https://www.seonet.jp/website/page_speed/'>ページ表示スピード測定</a></li>
+<li><a href='https://www.seonet.jp/website/http/'>リダイレクトチェック</a></li>
+<li><a href='https://www.seonet.jp/website/punycode/'>日本語ドメインURL変換</a></li>
+<li><a href='https://www.seonet.jp/website/urlencode-urldecode/'>URLエンコード変換</a></li>
+<li><a href='https://www.seonet.jp/website/html/'>HTMLソースコード表示</a></li>
+<li><a href='https://www.seonet.jp/website/html_entities/'>HTMLコード表示用に変換</a></li>
+<li><a href='https://www.seonet.jp/website/mobile_friendly/'>モバイルフレンドリーテスト</a></li>
+<li><a href='https://www.seonet.jp/website/image_base64/'>画像base64変換</a></li>
+</ul>
+</li>
+ 
+<li>
+<a href='https://www.seonet.jp/useful/'>お役立ちツール<span>Useful Tools</span></a>
+<ul class='sub-menu'>
+<li><a href='https://www.seonet.jp/useful/hebon/'>ヘボン式ローマ字変換</a></li>
+<li><a href='https://www.seonet.jp/useful/mail_address/'>メールアドレス存在確認</a></li>
+<li><a href='https://www.seonet.jp/useful/divination/'>数秘術運命数と動物占い</a></li>
+<li><a href='https://www.seonet.jp/useful/document-invoice/'>請求書作成ツール</a></li>
+<li><a href='https://www.seonet.jp/useful/exchange/'>通貨換算ツール</a></li>
+<li><a href='https://www.seonet.jp/useful/screenshot/'>スクリーンショット</a></li>
+<li><a href='https://www.seonet.jp/useful/associate/'>連想語検索</a></li>
+<li><a href='https://www.seonet.jp/useful/info/'>IPアドレス＆UserAgent確認</a></li>
+<li><a href='https://www.seonet.jp/useful/image_crop/'>画像加工ツール</a></li>
+</ul>
+</li>
+<li><a href='https://www.seonet.jp/donations.php'>寄付のお願い<span>Donations</span></a></li>
+<li>
+<a href='https://www.seonet.jp/contact/'>お問い合わせ<span>Contact</span></a>
+<ul class='sub-menu'>
+<li><a href='https://www.seonet.jp/info.php'>免責事項</a></li>
+<li><a href='https://www.seonet.jp/production.php'>PHPスクリプト制作</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+ 
+<table class='nabilink'>
+<tr>
+<td>
+<div class='breadcrumbs' itemscope itemtype='http://schema.org/BreadcrumbList'>
+<ul>
+<li><span itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'><a itemprop='item' href='https://www.seonet.jp/' class='a'><span itemprop='name'>SEOツールネット</span></a><meta itemprop='position' content='1'></span></li>
+<li><span itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'><a itemprop='item' href='https://www.seonet.jp/website/' class='a'><span itemprop='name'>ウェブサイトツール</span></a><meta itemprop='position' content='2'></span></li>
+<li><span itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'><span itemprop='name'>HTMLソースコード表示</span><meta itemprop='position' content='3'></span></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+ 
+ 
+<table class='b'>
+<tr>
+<th>HTMLソースコード表示の説明</th>
+</tr>
+<tr>
+<td>
+ウェブサイトのHTMLソースコードやCSSコードなどをシンタックスハイライトで表示します。また任意のワードでコード内を検索しハイライト表示もできます。
+</td>
+</tr>
+</table>
+ 
+<br>
+ 
+ 
+<script>
+$(function(){
+$('form').submit(function() {
+var url = $('input[name=url]').val();
+if(url == ''){
+alert('URLを入力してください');
+return false;
+}
+else{
+$('form').find(':submit').prop('disabled', true);
+var geturl = location.href;
+var geturl = geturl+url;
+ 
+$('#check').html('<img src=https://www.seonet.jp/img/load2.gif>');
+$.ajax({
+type: 'get',
+url:  'https://www.seonet.jp/menu/record.php',
+data: {url:geturl}
+})
+.done(function(check){
+$('#check').html(check);
+ 
+var result = $('form').offset().top;
+$('html, body').animate({scrollTop:result});
+var FormData = $('form').serialize();
+$('#GetData').html('<img style=margin:15px; src=https://www.seonet.jp/img/load.gif>');
+$.ajax({
+type: 'post',
+url:  'https://www.seonet.jp/website/html/function.php',
+data: FormData
+})
+.done(function(data){
+$('#GetData').html(data);
+$('form').find(':submit').prop('disabled', false);
+})
+ 
+})
+.fail(function(check){
+$('form').find(':submit').prop('disabled', false);
+$('#check').html('時間を置いてからご利用ください');
+});
+ 
+}
+});
+});
+</script>
+ 
+<form action='javascript:void(0);' name='Form'>
+<table class='form'>
+<tr>
+<th colspan='2'>HTMLソースコード表示ツール</th>
+</tr>
+<tr>
+<td style='width:40px; text-align:center;'>URL</td>
+<td>
+<div class='searchFrame'>
+<input class='input' placeholder=' e.g. https://www.example.com/' type='text' name='url' value=''>
+<div class='clearButton' onclick='ClearButton_Click()'></div>
+</div>
+</td>
+</tr>
+<tr>
+<td style='text-align:center;'>Style</td>
+<td>
+<input type='radio' name='style' value='normal' checked>Normal<br>
+<input type='radio' name='style' value='white'>White Style<br>
+<input type='radio' name='style' value='black'>Black Style<br>
+</td>
+</tr>
+<tr>
+<td style='text-align:center;'>Send</td>
+<td>
+<input class='submit' type='submit' value='送信'>
+<span id='check'></span>
+</td>
+</tr>
+</table>
+</form>
+ 
+<div id='GetData'></div>
+<br>
+<table class='a'>
+<tr>
+<th>ウェブサイトツール</th>
+</tr>
+<tr>
+<td>
+<dl>
+<dt><a class='b' href='https://www.seonet.jp/website/page_speed/'>ページ表示速度測定</a></dt>
+<dd>ウェブページの表示速度が測定できるツールです。ページ表示速度は検索アルゴリズムのひとつに組み込まれています。(SpeedUpdate)</dd>
+<dt><a class='b' href='https://www.seonet.jp/website/http/'>リダイレクトチェック＆HTTPヘッダ情報</a></dt>
+<dd>リダイレクトチェックとHTTPヘッダ情報が確認できるツールです。HTTPステータスコード一覧＝1**(情報)、2**(成功)、3**(リダイレクト)、4**(クライアントエラー)、5**(サーバーエラー)</dd>
+<dt><a class='b' href='https://www.seonet.jp/website/punycode/'>日本語ドメイン＆日本語URL変換</a></dt>
+<dd>日本語ドメインをPunycode(ピュニコード)に変換します。またURL内に日本語や全角記号が含まれている場合にはエンコードします。反対にエンコードされたURLを送信すればデコードします。APIもあります。</dd>
+<dt><a class='b' href='https://www.seonet.jp/website/urlencode-urldecode/'>URLエンコード・デコード変換</a></dt>
+<dd>URL(文字列)をエンコードに変換します。またエンコードされた文字列を入力すればデコードに変換します。APIもあります。</dd>
+<dt><a class='b' href='https://www.seonet.jp/website/html/'>HTMLソースコード表示</a></dt>
+<dd>ウェブサイトのHTMLソースコードやCSSコードなどをシンタックスハイライトで表示します。また任意のワードでコード内を検索しハイライト表示もできます。</dd>
+<dt><a class='b' href='https://www.seonet.jp/website/html_entities/'>HTMLソースコードを表示用に変換</a></dt>
+<dd>HTMLソースコードをウェブサイト上に表示できるように変換します。また変換(エンティティ化)された文字列を入力すれば実際に使われるHTMLソースコードに変換します。</dd>
+<dt><a class='b' href='https://www.seonet.jp/website/mobile_friendly/'>モバイルフレンドリーテスト</a></dt>
+<dd>ウェブサイトがモバイルフレンドリーに対応しているかをチェックします。近年のSEO対策ではモバイルページの作成が重要になっています。</dd>
+<dt><a class='b' href='https://www.seonet.jp/website/image_base64/'>画像base64変換</a></dt>
+<dd>画像をBase64にエンコード変換します。ウェブサイトHTMLの画像タグに &lt;img src=&quot;data:image/png;base64,CODE&quot;&gt; として埋め込めば画像の読み込み時間がなくなりウェブサイトの表示速度が上がります。</dd>
+ 
+</dl>
+ 
+ 
+</td>
+</tr>
+</table>
+ 
+ 
+<br>
+ 
+<table id='ToolList' class='a'>
+<tr>
+<th>ツールカテゴリ</th>
+</tr>
+<tr>
+<td>
+<ul style='list-style-type:circle;'>
+<li style='margin-top:0px;'><a class='b' href='https://www.seonet.jp/seo/'>SEOツール</a></li>
+<li style='margin-top:8px;'><a class='b' href='https://www.seonet.jp/domain/'>ドメインツール</a></li>
+<li style='margin-top:8px;'><a class='b' href='https://www.seonet.jp/website/'>ウェブサイトツール</a></li>
+<li style='margin-top:8px;'><a class='b' href='https://www.seonet.jp/useful/'>お役立ちツール</a></li>
+</ul>
+</td>
+</tr>
+</table>
+ 
+<br>
+ 
+<table id='SubMenu' class='a'>
+<tr>
+<th>サブメニュー</th>
+</tr>
+<tr>
+<td>
+<ul style='list-style-type:circle;'>
+<li style='margin-top:0px;'><a class='b' href='https://www.seonet.jp/contact/'>お問い合わせ</a></li>
+<li style='margin-top:8px;'><a class='b' href='https://www.seonet.jp/info.php'>免責事項</a></li>
+<li style='margin-top:8px;'><a class='b' href='https://www.seonet.jp/production.php'>PHPスクリプト制作依頼</a></li>
+<li style='margin-top:8px;'><a class='b' href='https://www.seonet.jp/donations.php'>寄付のお願い</a></li>
+</ul>
+</td>
+</tr>
+</table>
+ 
+<br>
+ 
+<p id='page-top'><a class='page-top'>▲</a></p>
+<DIV id='footerFixed'>
+<footer id='footer'>
+<div class='innerMenu'>
+<ul>
+<li><a href='https://www.seonet.jp/seo/'>SEOツール</a></li>
+<li><a href='https://www.seonet.jp/domain/'>ドメインツール</a></li>
+<li><a href='https://www.seonet.jp/website/'>ウェブサイトツール</a></li>
+<li><a href='https://www.seonet.jp/useful/'>お役立ちツール</a></li>
+<li><a href='https://www.seonet.jp/donations.php'>寄付のお願い</a></li>
+</ul>
+</div>
+</footer>
+<p id='copyright'>
+<a href='https://www.seonet.jp/'><img src='https://www.seonet.jp/img/logo-footer.png' alt='SEOツールネット' width='180'></a><br>
+<span style='vertical-align:middle;'>SEOツールネット(無料ツール提供サイト)
+<br>
+当サイトは広告なしで運営しています
+</span>
+<br>
+Contact <a href='https://www.seonet.jp/contact/'><img style='width:20px; vertical-align:middle;' src='https://www.seonet.jp/img/mail.png' alt='お問い合わせフォーム'></a>
+<br>
+<a rel='nofollow' target='_blank' href='https://twitter.com/medakaland'><img style='width:50px; vertical-align:middle;' src='https://www.seonet.jp/img/Twitter.png' alt=''></a>
+<br>
+&copy; www.seonet.jp
+</p>
+</DIV>
+</DIV>
+ 
+<script>
+$(function(){
+$('div.panel').hide();
+$('.menu').click(function(){
+$(this).toggleClass('menuOpen').next().slideToggle();
+});
+})
+</script>
+ 
+<script async src='https://www.googletagmanager.com/gtag/js?id=UA-153601472-1'></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-153601472-1');
+</script>
+ 
+</body>
+</html>
+ 
